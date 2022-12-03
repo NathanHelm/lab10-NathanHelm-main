@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <script>
+        var N = window.prompt("enter an integer.");
+        if(Number.isInteger(parseFloat(N)) == false)
+        {
+           window.alert("input value is not a positive integer");
+        }
+        else
+        {
+        Loop();
+        }
+        
+        function Loop()
+        {
+        for(var i = 0; i<N; i++) 
+        {
+        if(i % 2 == 0)
+        {
+            document.write(i+"even"+"\n");
+        }
+        else
+        {
+            document.write(i+"odd"+"\n");
+        }
+        }
+        }
+    </script>
+</body>
+
+
+</html>
